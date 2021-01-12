@@ -10,6 +10,7 @@ import { NotesComponent } from './pages/notes/notes.component';
 import { OptionsComponent } from './pages/options/options.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
     NotesComponent,
     OptionsComponent,
     HomepageComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

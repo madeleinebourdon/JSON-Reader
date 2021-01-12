@@ -1,3 +1,5 @@
+@import 'variables';
+
 body {
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,8 +9,9 @@ main {
     max-width: 1100px;
     margin: auto;
     padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: calc(100vh - #{map-get($min-heights, "navbar")} - #{map-get($min-heights, "footer")});
 }
-
 
 select, 
 fieldset {
@@ -50,4 +53,8 @@ legend {
 }
 fieldset {
     padding: 0.5rem;
+}
+.container {
+    padding-left: inherit;
+    padding-right: inherit;
 }
