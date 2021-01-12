@@ -1,0 +1,605 @@
+{
+    "info": {
+        "name": "RGAA 4",
+        "date": "04/01/2020",
+        "author": "Madeleine BOURDON"
+    },
+    "content": [
+        {
+            "name": "Thématique 1",
+            "value": 1,
+            "subcontent": [
+                {
+                    "name": "Chaque image porteuse d’information a-t-elle une alternative textuelle ?",
+                    "value": 1.1,
+                    "paragraph": [
+                        {
+                            "tldr": "Test de contenu vérifié",
+                            "checked": "yes",
+                            "content": {
+                                "0": "Porta ac eu aptent fringilla luctus laoreet sociis posuere. Turpis orci, mauris sociis quisque hac nec bibendum integer. Penatibus litora rutrum lorem senectus conubia et. Cubilia varius proin at, ac litora arcu et in integer sodales bibendum. Dictum arcu gravida odio etiam primis dignissim nostra platea condimentum mi nullam tincidunt. Dapibus lorem placerat malesuada. Nascetur nunc eleifend posuere mus elit sit tortor inceptos suscipit nec. Congue eleifend elementum nascetur tristique eget sociis adipiscing ac aenean elit vulputate taciti. Montes gravida himenaeos orci tristique diam eget, placerat dictum dapibus dictum dapibus. Pharetra accumsan lobortis hac egestas eleifend."
+                            }
+                        },
+                        {
+                            "tldr": "Test de contenu non vérifié",
+                            "checked": "no",
+                            "content": {
+                                "0": "Ceci est juste un test."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Chaque image de décoration est-elle correctement ignorée par les technologies d’assistance ?",
+                    "value": 1.2
+                },
+                {
+                    "name": "Pour chaque image porteuse d’information ayant une alternative textuelle, cette alternative est-elle pertinente (hors cas particuliers) ?",
+                    "value": 1.3
+                },
+                {
+                    "name": "Pour chaque image utilisée comme CAPTCHA ou comme image-test, ayant une alternative textuelle, cette alternative permet-elle d’identifier la nature et la fonction de l’image ?",
+                    "value": 1.4
+                },
+                {
+                    "name": "Pour chaque image utilisée comme CAPTCHA, une solution d’accès alternatif au contenu ou à la fonction du CAPTCHA est-elle présente ?",
+                    "value": 1.5
+                },
+                {
+                    "name": "Chaque image porteuse d’information a-t-elle, si nécessaire, une description détaillée ?",
+                    "value": 1.6
+                },
+                {
+                    "name": "Pour chaque image porteuse d’information ayant une description détaillée, cette description est-elle pertinente ?",
+                    "value": 1.7
+                },
+                {
+                    "name": "Chaque image texte porteuse d’information, en l’absence d’un mécanisme de remplacement, doit si possible être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers) ?",
+                    "value": 1.8
+                },
+                {
+                    "name": "Chaque légende d’image est-elle, si nécessaire, correctement reliée à l’image correspondante ?",
+                    "value": 1.9
+                }
+            ]
+        },
+        {
+            "name": "Thématique 2",
+            "value": 2,
+            "subcontent": [
+                {
+                    "name": "Chaque cadre a-t-il un titre de cadre ? ",
+                    "value": 2.1,
+                    "paragraph": []
+                },
+                {
+                    "name": "Pour chaque cadre ayant un titre de cadre, ce titre de cadre est-il pertinent ?",
+                    "value": 2.2
+                }
+            ]
+        },
+        {
+            "name": "Thématique 3",
+            "value": 3,
+            "subcontent": [
+                {
+                    "name": "Dans chaque page web, l’information ne doit pas être donnée uniquement par la couleur. Cette règle est-elle respectée ?",
+                    "value": 3.1
+                },
+                {
+                    "name": "Dans chaque page web, le contraste entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?",
+                    "value": 3.2
+                },
+                {
+                    "name": "Dans chaque page web, les couleurs utilisées dans les composants d’interface ou les éléments graphiques porteurs d’informations sont-elles suffisamment contrastées (hors cas particuliers) ?",
+                    "value": 3.3
+                }
+            ]
+        },
+        {
+            "name": "Thématique 4",
+            "value": 4,
+            "subcontent": [
+                {
+                    "name": "Chaque média temporel pré-enregistré a-t-il, si nécessaire, une transcription textuelle ou une audiodescription (hors cas particuliers) ?",
+                    "value": 4.1
+                },
+                {
+                    "name": "Pour chaque média temporel pré-enregistré ayant une transcription textuelle ou une audiodescription synchronisée, celles-ci sont-elles pertinentes (hors cas particuliers) ?",
+                    "value": 4.2
+                },
+                {
+                    "name": "Chaque média temporel synchronisé pré-enregistré a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers) ?",
+                    "value": 4.3
+                },
+                {
+                    "name": "Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, ces sous-titres sont-ils pertinents ?",
+                    "value": 4.4
+                },
+                {
+                    "name": "Chaque média temporel pré-enregistré a-t-il, si nécessaire, une audiodescription synchronisée (hors cas particuliers) ?",
+                    "value": 4.5
+                },
+                {
+                    "name": "Pour chaque média temporel pré-enregistré ayant une audiodescription synchronisée, celle-ci est-elle pertinente ?",
+                    "value": 4.6
+                },
+                {
+                    "name": "Chaque média temporel est-il clairement identifiable (hors cas particuliers) ?",
+                    "value": 4.7
+                },
+                {
+                    "name": "Chaque média non temporel a-t-il, si nécessaire, une alternative (hors cas particuliers) ?",
+                    "value": 4.8
+                },
+                {
+                    "name": "Pour chaque média non temporel ayant une alternative, cette alternative est-elle pertinente ?",
+                    "value": 4.9
+                },
+                {
+                    "name": "Chaque son déclenché automatiquement est-il contrôlable par l’utilisateur ?",
+                    "value": 4.10
+                },
+                {
+                    "name": "La consultation de chaque média temporel est-elle, si nécessaire, contrôlable par le clavier et tout dispositif de pointage ?",
+                    "value": 4.11
+                },
+                {
+                    "name": "La consultation de chaque média non temporel est-elle contrôlable par le clavier et tout dispositif de pointage ?",
+                    "value": 4.12
+                },
+                {
+                    "name": "Chaque média temporel et non temporel est-il compatible avec les technologies d’assistance (hors cas particuliers) ?",
+                    "value": 4.13
+                }
+            ]
+        },
+        {
+            "name": "Thématique 5",
+            "value": 5,
+            "subcontent": [
+                {
+                    "name": "Chaque tableau de données complexe a-t-il un résumé ?",
+                    "value": 5.1
+                },
+                {
+                    "name": "Pour chaque tableau de données complexe ayant un résumé, celui-ci est-il pertinent ?",
+                    "value": 5.2
+                },
+                {
+                    "name": "Pour chaque tableau de mise en forme, le contenu linéarisé reste-t-il compréhensible (hors cas particuliers) ?",
+                    "value": 5.3
+                },
+                {
+                    "name": "Pour chaque tableau de données ayant un titre, le titre est-il correctement associé au tableau de données ?",
+                    "value": 5.4
+                },
+                {
+                    "name": "Pour chaque tableau de données ayant un titre, celui-ci est-il pertinent ?",
+                    "value": 5.5
+                },
+                {
+                    "name": "Pour chaque tableau de données, chaque en-tête de colonnes et chaque en-tête de lignes sont-ils correctement déclarés ?",
+                    "value": 5.6
+                },
+                {
+                    "name": "Pour chaque tableau de données, la technique appropriée permettant d’associer chaque cellule avec ses en-têtes est-elle utilisée (hors cas particuliers) ?",
+                    "value": 5.7
+                },
+                {
+                    "name": "Chaque tableau de mise en forme ne doit pas utiliser d’éléments propres aux tableaux de données. Cette règle est-elle respectée ?",
+                    "value": 5.8
+                }
+            ]
+        },
+        {
+            "name": "Thématique 6",
+            "value": 6,
+            "subcontent": [
+                {
+                    "name": "Chaque lien est-il explicite (hors cas particuliers) ?",
+                    "value": 6.1
+                },
+                {
+                    "name": "Dans chaque page web, chaque lien, à l’exception des ancres, a-t-il un intitulé ?",
+                    "value": 6.2
+                }
+            ]
+        },
+        {
+            "name": "Thématique 7",
+            "value": 7,
+            "subcontent": [
+                {
+                    "name": "Chaque script est-il, si nécessaire, compatible avec les technologies d’assistance ?",
+                    "value": 7.1
+                },
+                {
+                    "name": "Pour chaque script ayant une alternative, cette alternative est-elle pertinente ?",
+                    "value": 7.2
+                },
+                {
+                    "name": "Chaque script est-il contrôlable par le clavier et par tout dispositif de pointage (hors cas particuliers) ?",
+                    "value": 7.3
+                },
+                {
+                    "name": "Pour chaque script qui initie un changement de contexte, l’utilisateur est-il averti ou en a-t-il le contrôle ?",
+                    "value": 7.4
+                },
+                {
+                    "name": "Dans chaque page web, les messages de statut sont-ils correctement restitués par les technologies d’assistance ?",
+                    "value": 7.5
+                }
+            ]
+        },
+        {
+            "name": "Thématique 8",
+            "value": 8,
+            "subcontent":[
+                {
+                    "name": "Chaque page web est-elle définie par un type de document ?",
+                    "value": 8.1
+                },
+                {
+                    "name": "Pour chaque page web, le code source généré est-il valide selon le type de document spécifié (hors cas particuliers) ?",
+                    "value": 8.2
+                },
+                {
+                    "name": "Dans chaque page web, la langue par défaut est-elle présente ?",
+                    "value": 8.3
+                },
+                {
+                    "name": "Pour chaque page web ayant une langue par défaut, le code de langue est-il pertinent ?",
+                    "value": 8.4
+                },
+                {
+                    "name": "Chaque page web a-t-elle un titre de page ?",
+                    "value": 8.5
+                },
+                {
+                    "name": "Pour chaque page web ayant un titre de page, ce titre est-il pertinent ?",
+                    "value": 8.6
+                },
+                {
+                    "name": "Dans chaque page web, chaque changement de langue est-il indiqué dans le code source (hors cas particuliers) ?",
+                    "value": 8.7
+                },
+                {
+                    "name": "Dans chaque page web, le code de langue de chaque changement de langue est-il valide et pertinent ?",
+                    "value": 8.8
+                },
+                {
+                    "name": "Dans chaque page web, les balises ne doivent pas être utilisées uniquement à des fins de présentation. Cette règle est-elle respectée ?",
+                    "value": 8.9
+                },
+                {
+                    "name": "Dans chaque page web, les changements du sens de lecture sont-ils signalés ?",
+                    "value": 8.10
+                }
+            ]
+        },
+        {
+            "name": "Thématique 9",
+            "value": 9,
+            "subcontent": [
+                {
+                    "name": "Dans chaque page web, l’information est-elle structurée par l’utilisation appropriée de titres ?",
+                    "value": 9.1,
+                    "paragraph": [
+                        {
+                            "tldr": "Certains textes ne sont pas des titres",
+                            "checked": "no",
+                            "content": {
+                                "0": "Sur la page « _ », certains textes découlant de titres de niveau _ ont une logique de niveau de titre, mais pas la sémantique. Ces textes devraient donc devenir des titres de niveau _."
+                            }
+                        },
+                        {
+                            "tldr": "Par cascade, certains niveaux de titres doivent être modifiés",
+                            "checked": "no",
+                            "content": {
+                                "0": "De plus, sur cette même page « _ », les textes qui devraient être des titres de niveau _ décrits plus haut ont eux-mêmes des titres enfants, qui devraient donc être des titres de niveau _."
+                            }
+                        },
+                        {
+                            "tldr": "Certains titres ne sont pas imbriqués avec leurs parents",
+                            "checked": "no",
+                            "content": {
+                                "0": "Sur la page « _ », les titres _ sont au même niveau que _, c’est-à-dire de niveau _. Pour devenir conformes, ces titres de niveau _ devraient devenir des titres de niveau _."
+                            }
+                        },
+                        {
+                            "tldr": "Les niveaux sémantiques ne correspondent pas au visuel",
+                            "checked": "no",
+                            "content": {
+                                "0": "Sur la page « _ », les niveaux de titres _ ont une apparence et un usage similaire, mais ils sont actuellement _. Pour devenir conformes, ces titres devraient tous être au même niveau, c’est-à-dire ici, tous des titres de niveau _."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Dans chaque page web, la structure du document est-elle cohérente (hors cas particuliers) ?",
+                    "value": 9.2
+                },
+                {
+                    "name": "Dans chaque page web, chaque liste est-elle correctement structurée ?",
+                    "value": 9.3,
+                    "paragraph":[
+                        {
+                            "tldr": "Liste non ordonnée",
+                            "checked": "no",
+                            "content": {
+                                "0": "Sur la page « _ », les _ devraient être contenus dans des listes non ordonnées, matérialisées par une balise <ul>, avec une balise <li> par élément dans la liste."
+                            }
+                        },
+                        {
+                            "tldr": "Liste ordonnée",
+                            "checked": "no",
+                            "content": {
+                                "0": "Sur la page « _ », plusieurs éléments dont le contenu commence par des chiffres devraient être contenus dans des listes ordonnées, matérialisées par une balise <ol>, avec une balise <li> par élément dans la liste.",
+                                "1": "Si l’index des listes ordonnées devait être masqué via feuilles de styles et si leurs chiffres déjà présents dans le contenu devaient être conservés, alors ces mêmes chiffres devraient avoir l’attribut « aria-hidden=\"true\" » pour ne pas engendrer de double vocalisation pour les utilisateurs de technologies d’assistances, car ils sauront déjà où ils se situent dans cette liste."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Dans chaque page web, chaque citation est-elle correctement indiquée ?",
+                    "value": 9.4
+                }
+            ]
+        },
+        {
+            "name": "Thématique 10",
+            "value": 10,
+            "subcontent":[
+                {
+                    "name": "Dans le site web, des feuilles de styles sont-elles utilisées pour contrôler la présentation de l’information ?",
+                    "value": 10.1
+                },
+                {
+                    "name": "Dans chaque page web, le contenu visible reste-t-il présent lorsque les feuilles de styles sont désactivées ?",
+                    "value": 10.2
+                },
+                {
+                    "name": "Dans chaque page web, l’information reste-t-elle compréhensible lorsque les feuilles de styles sont désactivées ?",
+                    "value": 10.3
+                },
+                {
+                    "name": "Dans chaque page web, le texte reste-t-il lisible lorsque la taille des caractères est augmentée jusqu’à 200%, au moins (hors cas particuliers) ?",
+                    "value": 10.4
+                },
+                {
+                    "name": "Dans chaque page web, les déclarations CSS de couleurs de fond d’élément et de police sont-elles correctement utilisées ?",
+                    "value": 10.5
+                },
+                {
+                    "name": "Dans chaque page web, chaque lien dont la nature n’est pas évidente est-il visible par rapport au texte environnant ?",
+                    "value": 10.6
+                },
+                {
+                    "name": "Dans chaque page web, pour chaque élément recevant le focus, la prise de focus est-elle visible ?",
+                    "value": 10.7
+                },
+                {
+                    "name": "Pour chaque page web, les contenus cachés ont-ils vocation à être ignorés par les technologies d’assistance ?",
+                    "value": 10.8
+                },
+                {
+                    "name": "Dans chaque page web, l’information ne doit pas être donnée uniquement par la forme, taille ou position. Cette règle est-elle respectée ?",
+                    "value": 10.9
+                },
+                {
+                    "name": "Dans chaque page web, l’information ne doit pas être donnée par la forme, taille ou position uniquement. Cette règle est-elle implémentée de façon pertinente ?",
+                    "value": 10.10
+                },
+                {
+                    "name": "Pour chaque page web, les contenus peuvent-ils être présentés sans avoir recours à la fois à un défilement vertical pour une fenêtre ayant une hauteur de 256px ou une largeur de 320px (hors cas particuliers) ?",
+                    "value": 10.11
+                },
+                {
+                    "name": "Dans chaque page web, les propriétés d’espacement du texte peuvent-elles être redéfinies par l’utilisateur sans perte de contenu ou de fonctionnalité (hors cas particuliers) ?",
+                    "value": 10.12
+                },
+                {
+                    "name": "Dans chaque page web, les contenus additionnels apparaissant à la prise de focus ou au survol d’un composant d’interface sont-ils contrôlables par l’utilisateur (hors cas particuliers) ?",
+                    "value": 10.13
+                },
+                {
+                    "name": "Dans chaque page web, les contenus additionnels apparaissant via les styles CSS uniquement peuvent-ils être rendus visibles au clavier et par tout dispositif de pointage ?",
+                    "value": 10.14
+                }
+            ]
+        },
+        {
+            "name": "Thématique 11",
+            "value": 11,
+            "subcontent":[
+                {
+                    "name": "Chaque champ de formulaire a-t-il une étiquette ?",
+                    "value": 11.1,
+                    "paragraph":[
+                        {
+                            "tldr": "Les étiquettes sont bonnes, mais sont en display: none",
+                            "checked": "no",
+                            "content":{
+                                "0": "Sur la page « _ », certaines étiquettes sont bien reliées à leurs champs respectifs grâce à l’attribut « for », mais elle possèdent la propriété CSS « display : none ». Celles-ci seront donc complètement ignorées par les technologies d’assistances et deviendront inutiles dans le cadre de l’accessibilité numérique.",
+                                "1": "Pour devenir conformes, ces étiquettes devraient donc être présentes en masquage accessible plutôt que d’être complètement cachées."
+                            }
+
+                        }
+                    ]
+                },
+                {
+                    "name": "Chaque étiquette associée à un champ de formulaire est-elle pertinente (hors cas particuliers) ?",
+                    "value": 11.2,
+                    "paragraph":[
+                        {
+                            "tldr": "Certaines étiquettes sont dans une autre langue",
+                            "checked": "no",
+                            "content":{
+                                "0": "Sur la page « _ », certaines étiquettes, bien qu’elles soient pertinentes dans le fond, sont écrites en _. C’est le cas des champs _.",
+                                "1": "Pour qu’elles puissent devenir conformes, ces étiquettes devraient être traduites."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Dans chaque formulaire, chaque étiquette associée à un champ de formulaire ayant la même fonction et répété plusieurs fois dans une même page ou dans un ensemble de pages est-elle cohérente ?",
+                    "value": 11.3
+                },
+                {
+                    "name": "Dans chaque formulaire, chaque étiquette de champ et son champ associé sont-ils accolés (hors cas particuliers) ?",
+                    "value": 11.4
+                },
+                {
+                    "name": "Dans chaque formulaire, les champs de même nature sont-ils regroupés, si nécessaire ?",
+                    "value": 11.5
+                },
+                {
+                    "name": "Dans chaque formulaire, chaque regroupement de champs de formulaire a-t-il une légende ?",
+                    "value": 11.6
+                },
+                {
+                    "name": "Dans chaque formulaire, chaque légende associée à un regroupement de champs de même nature est-elle pertinente ?",
+                    "value": 11.7
+                },
+                {
+                    "name": "Dans chaque formulaire, les items de même nature d’une liste de choix sont-ils regroupées de manière pertinente ?",
+                    "value": 11.8
+                },
+                {
+                    "name": "Dans chaque formulaire, l’intitulé de chaque bouton est-il pertinent (hors cas particuliers) ?",
+                    "value": 11.9
+                },
+                {
+                    "name": "Dans chaque formulaire, le contrôle de saisie est-il utilisé de manière pertinente (hors cas particuliers) ?",
+                    "value": "11.10",
+                    "paragraph":[
+                        {
+                            "tldr": "La mention de champ obligatoire apparaît après l'envoi uniquement",
+                            "checked": "no",
+                            "content":{
+                                "0": "Sur la page « _ », les champs _ sont obligatoires, mais cela n’est indiqué qu’à la soumission du formulaire. Pour devenir conformes, leur caractère obligatoire devrait être clairement indiqué, soit directement par du texte, soit par un autre moyen (comme l’utilisation du symbole « * »), qui devrait alors être explicité avant que l’utilisateur n’envoie le formulaire."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Dans chaque formulaire, le contrôle de saisie est-il accompagné, si nécessaire, de suggestions facilitant la correction des erreurs de saisie ?",
+                    "value": 11.11
+                },
+                {
+                    "name": "Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, la saisie des données vérifie-t-elle une de ces conditions ?",
+                    "value": 11.12
+                },
+                {
+                    "name": "La finalité d’un champ de saisie peut-elle être déduite pour faciliter le remplissage automatique des champs avec les données de l’utilisateur ?",
+                    "value": 11.13
+                }
+            ]
+        },
+        {
+            "name": "Thématique 12",
+            "value": 12,
+            "subcontent":[
+                {
+                    "name": "Chaque ensemble de pages dispose-t-il de deux systèmes de navigation différents, au moins (hors cas particuliers) ?",
+                    "value": 12.1
+                },
+                {
+                    "name": "Dans chaque ensemble de pages, le menu et les barres de navigation sont-ils toujours à la même place (hors cas particuliers) ?",
+                    "value": 12.2
+                },
+                {
+                    "name": "La page « plan du site » est-elle pertinente ?",
+                    "value": 12.3
+                },
+                {
+                    "name": "Dans chaque ensemble de pages, la page « plan du site » est-elle atteignable de manière identique ?",
+                    "value": 12.4
+                },
+                {
+                    "name": "Dans chaque ensemble de pages, le moteur de recherche est-il atteignable de manière identique ?",
+                    "value": 12.5
+                },
+                {
+                    "name": "Les zones de regroupement de contenus présentes dans plusieurs pages web (zones d’en-tête, de navigation principale, de contenu principal, de pied de page et de moteur de recherche) peuvent-elles être atteintes ou évitées ?",
+                    "value": 12.6
+                },
+                {
+                    "name": "Dans chaque page web, un lien d’évitement ou d’accès rapide à la zone de contenu principal est-il présent (hors cas particuliers) ?",
+                    "value": 12.7
+                },
+                {
+                    "name": "Dans chaque page web, l’ordre de tabulation est-il cohérent ?",
+                    "value": 12.8
+                },
+                {
+                    "name": "Dans chaque page web, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée ?",
+                    "value": 12.9
+                },
+                {
+                    "name": "Dans chaque page web, les raccourcis clavier n’utilisant qu’une seule touche (lettre minuscule ou majuscule, ponctuation, chiffre ou symbole) sont-ils contrôlables par l’utilisateur ?",
+                    "value": "12.10"
+                },
+                {
+                    "name": "Dans chaque page web, les contenus additionnels apparaissant au survol, à la prise de focus ou à l’activation d’un composant d’interface sont-ils si nécessaire atteignables au clavier ?",
+                    "value": 12.11
+                }
+            ]
+        },
+        {
+            "name": "Thématique 13",
+            "value": 13,
+            "subcontent":[
+                {
+                    "name": "Pour chaque page web, l’utilisateur a-t-il le contrôle de chaque limite de temps modifiant le contenu (hors cas particuliers) ?",
+                    "value": 13.1
+                },
+                {
+                    "name": "Dans chaque page web, l’ouverture d’une nouvelle fenêtre ne doit pas être déclenchée sans action de l’utilisateur. Cette règle est-elle respectée ?",
+                    "value": 13.2
+                },
+                {
+                    "name": "Dans chaque page web, chaque document bureautique en téléchargement possède-t-il, si nécessaire, une version accessible (hors cas particuliers) ?",
+                    "value": 13.3
+                },
+                {
+                    "name": "Pour chaque document bureautique ayant une version accessible, cette version offre-t-elle la même information ?",
+                    "value": 13.4
+                },
+                {
+                    "name": "Dans chaque page web, chaque contenu cryptique (art ASCII, émoticon, syntaxe cryptique) a-t-il une alternative ?",
+                    "value": 13.5
+                },
+                {
+                    "name": "Dans chaque page web, pour chaque contenu cryptique (art ASCII, émoticon, syntaxe cryptique) ayant une alternative, cette alternative est-elle pertinente ?",
+                    "value": 13.6
+                },
+                {
+                    "name": "Dans chaque page web, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ?",
+                    "value": 13.7
+                },
+                {
+                    "name": "Dans chaque page web, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur ?",
+                    "value": 13.8
+                },
+                {
+                    "name": "Dans chaque page web, le contenu proposé est-il consultable quelle que soit l’orientation de l’écran (portait ou paysage) (hors cas particuliers) ?",
+                    "value": 13.9
+                },
+                {
+                    "name": "Dans chaque page web, les fonctionnalités utilisables ou disponibles au moyen d’un geste complexe peuvent-elles être également disponibles au moyen d’un geste simple (hors cas particuliers) ?",
+                    "value": "13.10"
+                },
+                {
+                    "name": "Dans chaque page web, les actions déclenchées au moyen d’un dispositif de pointage sur un point unique de l’écran peuvent-elles faire l’objet d’une annulation (hors cas particuliers) ?",
+                    "value": 13.11
+                },
+                {
+                    "name": "Dans chaque page web, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers) ?",
+                    "value": 13.12
+                }
+            ]
+        }
+    ]
+}

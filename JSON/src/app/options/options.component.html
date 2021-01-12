@@ -1,0 +1,29 @@
+<h1>Options</h1>
+
+<form>
+    <div class="form-choices">
+        <input type="checkbox" id="verified-content-mode" name="verifiedcontent" [(ngModel)]="verifiedContentMode">
+        <label for="verified-content-mode">
+            Mode "contenu vérifié"
+            <button data-toggle="collapse" data-target="#infoVerifiedContent" aria-expanded="false" aria-controls="infoVerifiedContent" title="Plus d'informations" aria-label="Mode contenu vérifié - plus d'informations">
+                <span class="fas fa-info-circle"></span>
+                <span class="sr-only">Mode "contenu vérifié" - plus d'informations</span>
+            </button>
+            <div id="infoVerifiedContent" class="info collapse">
+                <p>
+                    Le mode "contenu vérifié" affiche une checkmark (<span class="headline-checkmark"
+                        title="Contenu vérifié">
+                        <span class="fas fa-check"></span>
+                        <span class="sr-only">(Contenu vérifié)</span>
+                    </span>) pour chaque élément de sous-catégorie qui inclut <code>"checked": "yes"</code> dans son
+                    fichier JSON.
+                </p>
+                <p>Si vous ne comptez pas utiliser cette fonction ou si celle-ci vous gêne, vous pouvez la désactiver
+                    ici.
+                </p>
+            </div>
+        </label>
+    </div>
+    <button class="btn btn-primary">Sauvegarder</button>
+    <button class="btn btn-secondary">Annuler</button>
+</form>

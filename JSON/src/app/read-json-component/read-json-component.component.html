@@ -1,0 +1,105 @@
+<div>
+    <div>
+        <h1>{{jsonInfo.name}}</h1>
+        <p>Par {{jsonInfo.author}} ({{jsonInfo.date}})</p>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Filtres</legend>
+            <label for="cat">
+                Catégorie
+            </label>
+            <select name="category" id="cat" (change)="selectCatChangeHandler($event)">
+                <!-- <option value="0" disabled>Veuillez choisir une catégorie</option> -->
+                <option *ngFor="let subject of jsonContent" value={{subject.value}}>{{subject.name}}</option>
+            </select>
+            <br>
+            <label *ngIf="subCategoriesArray" for="subcat">
+                Sous-catégorie
+            </label>
+            <select *ngIf="subCategoriesArray" name="subcategory" id="subcat"
+                (change)="selectSubCatChangeHandler($event)">
+                <option value="none">(Tout afficher)</option>
+                <option *ngFor="let subcategory of subCategoriesArray" value={{subcategory.value}}>
+                    <ng-template [ngIf]="subcategory.value">{{subcategory.value}} - </ng-template>{{subcategory.name}}
+                </option>
+            </select>
+        </fieldset>
+    </div>
+
+    <h2 *ngIf="selectedCategoryName">{{selectedCategoryName}}</h2>
+
+    <div *ngIf="selectedSubCategoryNumber && selectedSubCategoryNumber !== 'none'">
+        <h3 *ngIf="selectedSubCategoryNumber !== 'none'">
+            {{selectedSubCategoryNumber}} - {{selectedSubCategoryName}}
+        </h3>
+        <ul *ngIf="paragraphsArray" class="flatlist">
+            <li *ngFor="let paragraph of paragraphsArray" class="paragraph-card">
+                <div class="paragraph-text">
+                    <h4>{{paragraph.tldr}}</h4>
+                    <p *ngFor="let line of paragraph.content | keyvalue">{{line.value}}</p>
+                </div>
+                <div class="button-container">
+                    <button class="copy copy-regular" title='Copier "{{paragraph.tldr}}"'
+                        (click)="copyButton(paragraph.content, $event)">
+                        <span class="far fa-copy"></span>
+                        <span class="sr-only">Copier "{{paragraph.tldr}}"</span>
+                    </button>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div *ngIf="selectedCategoryNumber && !selectedSubCategoryNumber || selectedSubCategoryNumber === 'none'">
+        <ul class="flatlist">
+
+            <li *ngFor="let criteria of subCategoriesArray | keyvalue : returnZero; index as i" class="criteria">
+                <h3>
+                    {{criteria.value.value}} - {{criteria.value.name}}
+                </h3>
+
+                <ul class="flatlist">
+                    <li *ngFor="let paragraph of criteria.value.paragraph | keyvalue" class="paragraph-card"
+                        [ngClass]="{'checked-card' : paragraph.value.checked === 'yes'}">
+                        <div class="paragraph-text">
+                            <h4>{{paragraph.value.tldr}}
+                                <span *ngIf="paragraph.value.checked === 'yes'" class="headline-checkmark"
+                                    title="Contenu vérifié">
+                                    <span class="fas fa-check"></span>
+                                    <span class="sr-only">(Contenu vérifié)</span>
+                                </span>
+                            </h4>
+                            <div *ngFor="let line of paragraph.value.content | keyvalue">
+                                <p *ngIf="line.value.constructor.name !== 'Array'">
+                                    {{line.value}}
+                                </p>
+                                <ul *ngIf="line.value.constructor.name === 'Array'">
+                                    <li *ngFor="let content of line.value[0] | keyvalue">
+                                        {{content.value}}
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- <span *ngIf="paragraph.value.checked === 'yes'" class="checkmark-container" title="Contenu vérifié">
+                                <span class="fas fa-check"></span>
+                                <span class="sr-only">Contenu vérifié</span>
+                            </span> -->
+                        </div>
+                        <div class="button-container">
+                            <button class="copy copy-regular" title='Copier "{{paragraph.value.tldr}}"'
+                                (click)="copyButton(paragraph.value.content, $event)">
+                                <span class="far fa-copy"></span>
+                                <span class="sr-only">Copier "{{paragraph.value.tldr}}"</span>
+                            </button>
+                        </div>
+
+                        <!-- <ul class="flatlist">
+                            <li *ngFor="let item of paragraph.value | keyvalue">
+                                Key: <b>{{item.key}}</b> and Value: <b>{{item.value}}</b><br>
+                            </li>
+                        </ul> -->
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

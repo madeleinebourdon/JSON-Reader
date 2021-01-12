@@ -1,0 +1,24 @@
+<header>
+    <nav class="navbar navbar-expand-md">
+        <div class="container pl-0 pr-0">
+            <a class="navbar-brand" href="/">JSON Reader</a>
+
+            <button id="burger-menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Ouvrir le menu">
+                <span class="fas fa-bars"></span>
+                <span class="legend">Menu</span>
+            </button>
+    
+            <span class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li *ngFor="let link of linksList">
+                        <a href="{{link.url}}" [ngClass]="{'active': currentpath === link.currentpath}" class="nav-item nav-link">
+                            {{link.text}}
+                            <span *ngIf="currentpath === link.currentpath" class="sr-only">(actif)</span>
+                        </a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+    </nav>
+</header>
