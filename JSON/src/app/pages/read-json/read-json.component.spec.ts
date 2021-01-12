@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ReadJsonComponentComponent } from './read-json-component.component';
+import { ReadJsonComponent } from './read-json.component';
 
 describe('ReadJsonComponentComponent', () => {
-  let component: ReadJsonComponentComponent;
-  let fixture: ComponentFixture<ReadJsonComponentComponent>;
+  let component: ReadJsonComponent;
+  let fixture: ComponentFixture<ReadJsonComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ReadJsonComponentComponent ]
+      declarations: [ ReadJsonComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ReadJsonComponentComponent);
+    fixture = TestBed.createComponent(ReadJsonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

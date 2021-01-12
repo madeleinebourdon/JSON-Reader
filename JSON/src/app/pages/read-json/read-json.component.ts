@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import json from '../../assets/RGAA4.json';
+import json from '../../../assets/RGAA4.json';
 import { log } from 'util';
 
 @Component({
-  selector: 'app-read-json-component',
-  templateUrl: './read-json-component.component.html',
-  styleUrls: ['./read-json-component.component.scss']
+  selector: 'app-read-json',
+  templateUrl: './read-json.component.html',
+  styleUrls: ['./read-json.component.scss']
 })
-export class ReadJsonComponentComponent implements OnInit {
+export class ReadJsonComponent implements OnInit {
   jsonInfo = json.info;
   jsonContent = json.content;
 
@@ -60,7 +60,7 @@ export class ReadJsonComponentComponent implements OnInit {
     }
   }
 
-  // empêche le pipe "keyvalue" de trier par index (plutôt que de laisser l'ordre initial du tableau)
+  // empêche le pipe "keyvalue" de trier par index (plutôt que de laisser l'ordre du tableau qu'il a reçu)
   returnZero() { return 0 }
 
   constructor() {

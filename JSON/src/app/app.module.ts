@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ReadJsonComponentComponent } from './read-json-component/read-json-component.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { NotesComponent } from './notes/notes.component';
-import { OptionsComponent } from './options/options.component';
-import { HomepageComponent } from './homepage/homepage.component';
-import { NotfoundComponent } from './notfound/notfound.component';
+import { ReadJsonComponent } from './pages/read-json/read-json.component';
+import { NavbarComponent } from './common/navbar/navbar.component';
+import { NotesComponent } from './pages/notes/notes.component';
+import { OptionsComponent } from './pages/options/options.component';
+import { HomepageComponent } from './pages/homepage/homepage.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ReadJsonComponentComponent,
+    ReadJsonComponent,
     NavbarComponent,
     NotesComponent,
     OptionsComponent,
