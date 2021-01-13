@@ -1,8 +1,9 @@
+@import '../../../variables';
+
 .navbar {
     background-color: #1d5b84;
     color: white;
-    // padding: 1rem;
-    min-height: 4.5rem;
+    min-height: map-get($min-heights, "navbar");
     display: flex;
     align-items: center;
 
@@ -13,7 +14,6 @@
 
     a {
         color: white;
-        // padding-right: 0.75rem;
         text-decoration: none;
         display: flex;
         align-items: center;
@@ -73,7 +73,6 @@
                     display: flex;
                     width: 2px;
                     height: 100%;
-                    // border-radius: 100%;
                     background-color: white;
                     margin-left: 0.75rem;
                     opacity: 0.25;

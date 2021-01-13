@@ -1,6 +1,8 @@
+@import '../../../variables';
+
 footer {
     background-color: #171717;
     color: #fff;
     display: flex;
-    min-height: 4rem;
+    min-height: map-get($min-heights, "footer");
 }
