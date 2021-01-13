@@ -6,6 +6,11 @@
     display: flex;
     align-items: center;
 
+    .navbar-brand {
+        font-family: 'Comfortaa', cursive;
+        font-size: 1.7rem;
+    }
+
     a {
         color: white;
         // padding-right: 0.75rem;
@@ -76,6 +81,4 @@
             }
         }
     }
-
-    
 }

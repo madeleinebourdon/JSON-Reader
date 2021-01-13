@@ -2,7 +2,7 @@
 
 body {
     font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Hind', sans-serif;
 }
 
 main {
@@ -23,6 +23,9 @@ select {
     font-size: 1.1rem;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 // classes réutilisables
 .flatlist {
     list-style: none;
